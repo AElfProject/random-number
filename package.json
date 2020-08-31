@@ -36,7 +36,9 @@
     "lodash-decorators": "^6.0.1",
     "memoize-one": "^5.0.5",
     "moment-locales-webpack-plugin": "^1.1.0",
+    "path-to-regexp": "1.7.0",
     "prop-types": "^15.7.2",
+    "qrcode.react": "^1.0.0",
     "query-string": "^5.0.0",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
@@ -48,7 +50,8 @@
     "redux": "^4.0.4",
     "redux-devtools-extension": "^2.13.8",
     "redux-thunk": "^2.3.0",
-    "store": "^2.0.12"
+    "store": "^2.0.12",
+    "xlsx": "^0.16.5"
   },
   "devDependencies": {
     "@babel/core": "^7.5.5",
@@ -95,7 +98,7 @@
     "style-loader": "^0.23.1",
     "terser-webpack-plugin": "^2.2.1",
     "unused-files-webpack-plugin": "^3.4.0",
-    "url-loader": "^2.1.0",
+    "url-loader": "^4.1.0",
     "webpack": "^4.39.1",
     "webpack-ant-icon-loader": "^1.0.8",
     "webpack-bundle-analyzer": "^3.1.0",
@@ -112,5 +115,10 @@
   "lint-staged": {
     "*.{js,jsx}": "eslint"
   },
-  "theme": {}
+  "theme": {
+    "primary-color": "#5c28a9",
+    "link-color": "#5c28a9",
+    "btn-border-radius-base": "20px",
+    "btn-border-radius-sm": "20px"
+  }
 }
