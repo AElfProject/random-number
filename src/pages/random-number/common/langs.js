@@ -7,7 +7,7 @@ export const resources = {
   en: {
     translation: {
       randomNumber: 'Random Number',
-      lottery: 'lottery',
+      lottery: 'Room Selection Lottery',
       weChatSweep: 'WeChat sweep',
       follow: 'Follow the aelf Offical Accounts',
       order: 'order',
@@ -25,6 +25,13 @@ export const resources = {
       maxNumber: 'Max',
       maxPlaceholder: 'Please enter maximum',
       generate: 'generate',
+      verify: 'Verification',
+      random: 'Random Number of Current Round',
+      currentBlockHeight: 'Block Height For Random Numbers Of Past Requests For This Query',
+      requestBlockHeight: 'Block Height When Requesting Random Numbers',
+      randomBlockHeight: 'The Block Height When Random Number Is Generated',
+      playId: 'Block Transaction ID For Random Number Request',
+      hash: 'Random Hash Value',
       result: 'Result',
       resultText: 'Click to Generate Random Numbers',
       inputError: 'Please enter the correct number',
@@ -42,9 +49,19 @@ export const resources = {
       beginLotBtn: 'Start',
       selectedResult: 'Lot Result',
       confirm: 'Confirm',
+      request: 'Sending request to blockchain',
+      getCurrentBlockHeigh: 'Getting current block height',
+      confirmBlockHeight: 'Determining target block height',
+      goheight: 'Heading to target block height',
+      producttionBlock: 'Production node is producing block',
+      complateHash: 'Calculating current Hash value-in',
+      complateSign: 'Calculating current signature SIG',
+      generateRandom: 'Generating random number',
+      gettingRandom: 'Getting random number',
+      desc: 'Click on the above blue font to jump to the block browser to view detailed information'
     }
   },
-  zh: {
+  'zh-CN': {
     translation: {
       randomNumber: '随机数',
       lottery: '购房选房摇号',
@@ -63,8 +80,16 @@ export const resources = {
       minPlaceholder: '请输入最小值',
       maxNumber: '最大值',
       maxPlaceholder: '请输入最大值',
-      generate: '生成',
+      currentBlockHeight: '本次查询过往申请的随机数的区块高度',
+      requestBlockHeight: '申请随机数时的区块高度',
+      randomBlockHeight: '生成随机数的区块高度',
+      playId: '申请随机数的区块交易ID',
+      generate: '生 成',
       result: '结 果',
+      verify: '验 证',
+      random: '本轮随机数',
+      blockHeight: '区块高度',
+      hash: '随机Hash值',
       resultText: '点击生成产生随机数',
       inputError: '请输入正确的数字',
       Building: '新加坡锦绣楼盘',
@@ -78,6 +103,16 @@ export const resources = {
       beginLotBtn: '点击摇号',
       selectedResult: '摇号结果产生',
       confirm: '确定',
+      request: '发送请求到区块链上',
+      getCurrentBlockHeigh: '正在获取当前区块高度',
+      confirmBlockHeight: '正在确定目标区块高度',
+      goheight: '正在前往目标区块高度',
+      producttionBlock: '生产节点正在生产区块',
+      complateHash: '正在计算当前哈希值-in',
+      complateSign: '正在计算当前签名-sign',
+      generateRandom: '正在生成随机数',
+      gettingRandom: '正在获取随机数',
+      desc: '单击上方的蓝色字体，跳转到区块浏览器以查看详细信息'
     }
   }
 };
